@@ -1,0 +1,22 @@
+{
+  "name": "@jiffycloud/jiffy-route-builder-starter",
+  "description": "Jiffy Route Builder Starter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/jiffycloud/jiffy-route-builder-starter-ts",
+  "author": "JiffyCloud",
+  "scripts": {
+    "build": "webpack",
+    "deploy": "serverless deploy -v"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "jiffy-route-builder": "0.0.2",
+    "serverless": "^1.24.1",
+    "webpack": "^3.10.0",
+    "zip-webpack-plugin": "^2.1.0"
+  },
+  "dependencies": {}
+}
